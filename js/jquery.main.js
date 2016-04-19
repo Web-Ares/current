@@ -75,9 +75,9 @@ var Menu = function( obj ) {
                             curMenu.slideUp(300);
                             curElem.removeClass('open');
                         }
-                        if( curClose.hasClass( 'active' ) ){
+                        /*if( curClose.hasClass( 'active' ) ){
                             curClose.removeClass('active');
-                        }
+                        }*/
                     }
                 }
             });

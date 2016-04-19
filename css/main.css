@@ -372,7 +372,7 @@
 .header-menu__wrap {
     position: absolute;
     z-index: 2;
-    top: 169px;
+    top: 105px;
     width: 230px;
     margin-right: -100%;
     border-radius: 5px;
@@ -467,8 +467,7 @@
     position: absolute;
     width: 300px;
     top: 5px;
-    left: 50%;
-    margin-left: -150px;
+    left: 10px;
     color: #333333;
 }
 .logo img{
@@ -640,10 +639,6 @@
     }
     .header-menu .header-menu__wrap span a{
         text-decoration: none;
-        pointer-events: auto;
-    }
-    .header-menu .header-menu__has-sub span a{
-        pointer-events: auto;
     }
     /* --------------- /header-menu --------------- */
 
@@ -651,9 +646,7 @@
     .logo {
         position: absolute;
         top: 42px;
-        left: 10px;
         width: 400px;
-        margin-left: 0;
     }
     .logo img{
         width: 248px;
@@ -697,6 +690,9 @@
     /* --------------- header-menu --------------- */
     ul.header-menu__sub{
         width: 900px;
+    }
+    .header-menu .header-menu__has-sub span a{
+        pointer-events: auto;
     }
     /* --------------- /header-menu --------------- */
 
