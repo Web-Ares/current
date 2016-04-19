@@ -67,7 +67,7 @@
     font-size: 25px;
 }
 .site__content h2{
-    padding: 0 0 44px;
+    padding: 0 0 20px;
     font-size: 22px;
 }
 .site__content h3{
@@ -266,7 +266,7 @@
     position: absolute;
     width:20px;
     height:15px;
-    top:2px;
+    top: 4px;
     left: 0;
     background: url("../img/icon-mail.png") no-repeat center;
     content: "";
@@ -324,7 +324,7 @@
     border: none;
     padding: 0;
     position: absolute;
-    top: 57px;
+    top: 33px;
     right: 13px;
     width: 44px;
     height: 40px;
@@ -493,6 +493,9 @@
     }
     .site:after{
         height: 122px;
+    }
+    .site__content h2 {
+        padding: 0 0 44px;
     }
     .site__footer{
         height: 122px;
