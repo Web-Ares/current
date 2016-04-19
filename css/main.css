@@ -44,7 +44,7 @@
 .site__header {
     position: relative;
     z-index: 3;
-    height: 170px;
+    height: 105px;
     margin-bottom: 20px;
     background: url("../img/header-bg.jpg") no-repeat center;
 }
@@ -253,7 +253,7 @@
 }
 .site__header-mail{
     position: absolute;
-    top: 144px;
+    top: 79px;
     left: 8px;
     padding-left: 30px;
     color: #333;
@@ -273,7 +273,7 @@
 }
 .site__header-tel{
     position: absolute;
-    top: 118px;
+    top: 57px;
     left: 8px;
     padding-left: 20px;
 }
@@ -324,7 +324,7 @@
     border: none;
     padding: 0;
     position: absolute;
-    top: 118px;
+    top: 57px;
     right: 13px;
     width: 44px;
     height: 40px;
@@ -466,21 +466,22 @@
 .logo {
     position: absolute;
     width: 300px;
-    top: 9px;
+    top: 5px;
     left: 50%;
     margin-left: -150px;
     color: #333333;
 }
 .logo img{
-    width: 248px;
-    height: 85px;
+    width: 124px;
+    height: 42px;
 }
 .logo span{
     position: absolute;
-    top: 71px;
-    left: 56px;
-    letter-spacing: .5px;
-    line-height: 16px;
+    top: 32px;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: 13px;
+    font-size: 10px;
 }
 /* --------------- /logo --------------- */
 
@@ -488,6 +489,7 @@
 
     /* --------------- site --------------- */
     .site__header{
+        height: 170px;
         margin-bottom: 120px;
     }
     .site:after{
@@ -652,6 +654,18 @@
         left: 10px;
         width: 400px;
         margin-left: 0;
+    }
+    .logo img{
+        width: 248px;
+        height: 85px;
+    }
+    .logo span {
+        position: absolute;
+        top: 71px;
+        left: 56px;
+        letter-spacing: .5px;
+        line-height: 16px;
+        font-size: 14px;
     }
     /* --------------- /logo --------------- */
 }
