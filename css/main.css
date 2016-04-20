@@ -63,8 +63,8 @@
     padding: 10px 15px 0;
 }
 .site__content h1{
-    padding: 0 0 44px;
-    font-size: 25px;
+    padding: 0 0 21px;
+    font-size: 22px;
 }
 .site__content h2{
     padding: 0 0 20px;
@@ -292,6 +292,25 @@
     color: #333;
     cursor: default;
 }
+a.site__content-more{
+    position: relative;
+    float: right;
+    margin-top: 4px;
+    padding-right: 13px;
+    text-decoration: underline;
+}
+a.site__content-more:after{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    right: -3px;
+    background: url("../img/icon-more.png") no-repeat center;
+    content: "";
+}
+a.site__content-more:hover{
+    text-decoration: none;
+}
 /* --------------- /site --------------- */
 
 /* --------------- header-menu --------------- */
@@ -461,6 +480,15 @@
 .header-menu__wrap ul li:hover{
 }
 /* --------------- /header-menu --------------- */
+
+/* --------------- about --------------- */
+.about{
+    margin-top: 40px;
+}
+.about__item{
+    margin-bottom: 40px;
+}
+/* --------------- /about --------------- */
 
 /* --------------- logo --------------- */
 .logo {
@@ -644,6 +672,24 @@
         text-decoration: none;
     }
     /* --------------- /header-menu --------------- */
+
+    /* --------------- about --------------- */
+    .about{
+        margin-top: 75px;
+    }
+    .about__item{
+        display: inline-block;
+        vertical-align: top;
+        width: 46%;
+        margin-bottom: 41px;
+    }
+    .about__item h2{
+        padding: 0 0 21px;
+    }
+    .about .about__item:nth-child(even){
+        margin-left: 7%;
+    }
+    /* --------------- /about --------------- */
 
     /* --------------- logo --------------- */
     .logo {
